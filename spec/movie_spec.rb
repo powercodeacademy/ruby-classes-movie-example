@@ -16,14 +16,14 @@ describe Movie do
       end
     end
 
-    describe '#artist' do
-      it 'returns the artist' do
+    describe '#genre' do
+      it 'returns the genre' do
         expect(troll_2.genre).to eq('Comedy')
       end
     end
 
-    describe '#genre' do
-      it 'returns the genre' do
+    describe '#year' do
+      it 'returns the year' do
         expect(troll_2.year).to eq('1990')
       end
     end
